@@ -1,0 +1,14 @@
+# Print summary statistics
+cc_apps_description = cc_apps.describe()
+print(cc_apps_description)
+
+print('\n')
+
+# Print DataFrame information
+cc_apps_info = cc_apps.info()
+print(cc_apps_info)
+
+print('\n')
+
+# Inspect missing values in the dataset
+cc_apps.tail(17)
